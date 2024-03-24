@@ -72,7 +72,7 @@
         android:paddingVertical="12dp"/>
 
     <RadioGroup
-        android:id="@+id/radiogroup"
+        android:id="@+id/radio_group"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -98,5 +98,15 @@
             android:textColor="@color/black" />
 
     </RadioGroup>
+
+    <ImageView
+        android:id="@+id/img_radio"
+        android:layout_below="@id/radio_group"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_oreo"/>
 
 </RelativeLayout>
