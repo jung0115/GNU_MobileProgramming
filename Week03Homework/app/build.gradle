@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'jmi.gnu.week03homework'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "jmi.gnu.week03homework"
@@ -29,6 +29,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
