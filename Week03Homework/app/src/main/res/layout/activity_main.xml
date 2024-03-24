@@ -7,6 +7,96 @@
     tools:context=".MainActivity"
     android:background="@color/white">
 
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/black">
 
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="42dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_android"
+            android:layout_marginLeft="40dp"
+            android:layout_marginVertical="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="좀 그럴듯한 앱"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/btn_view_text"
+        android:layout_below="@id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:layout_marginHorizontal="5dp"
+        android:text="글자 나타나기"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingVertical="12dp"/>
+
+    <TextView
+        android:id="@+id/btn_open_page"
+        android:layout_below="@id/btn_view_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_button"
+        android:layout_marginHorizontal="5dp"
+        android:text="홈페이지 열기"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingVertical="12dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_open_page"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_oreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오레오"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파이"
+            android:textSize="14dp"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
 
 </RelativeLayout>
