@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.RadioGroup
 import android.widget.Toast
 import jmi.gnu.week03homework.databinding.ActivityMainBinding
 
@@ -30,6 +31,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(binding.edittext.text.toString()))
             startActivity(intent)
         }
+
+        // 이미지 변경
+        binding.radioGroup.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener { group, checkedId ->
+            when(checkedId) {
+                binding.radioOreo.id -> binding.imgRadio.setImageResource(R.drawable.img_oreo)
+                binding.radioPie.id -> binding.imgRadio.setImageResource(R.drawable.img_pie)
+            }
+        })
     }
 
     override fun onDestroy() {
