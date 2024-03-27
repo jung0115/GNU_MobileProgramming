@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/shape_button"
-        android:foregroundTint="#b4deb7"
         android:text="버튼 1"
         android:textSize="18dp"
         android:textColor="@color/black"
