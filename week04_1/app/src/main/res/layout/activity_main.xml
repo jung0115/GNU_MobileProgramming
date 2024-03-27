@@ -43,4 +43,44 @@
         android:layout_marginTop="20dp"
         android:enabled="false"/>
 
+    <!-- 텍스트뷰 속성 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="textSize 속성"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="textColor 속성"
+        android:textColor="#00FF00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="textStyle 속성"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="typeface 속성"
+        android:typeface="serif"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="singleLine 속성 singleLine 속성 singleLine 속성"
+        android:singleLine="true"
+        android:textColor="@color/black"/>
+
 </LinearLayout>
