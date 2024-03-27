@@ -9,4 +9,71 @@
     android:padding="20dp"
     android:background="@color/white">
 
+    <EditText
+        android:id="@+id/edit_num1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:hint="숫자1"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_num2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:hint="숫자2"
+        android:layout_marginBottom="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button2"
+        android:text="더하기"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button2"
+        android:text="빼기"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button2"
+        android:text="곱하기"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button2"
+        android:text="나누기"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="계산 결과: "
+        android:textColor="#fc3728"
+        android:layout_marginTop="15dp"/>
+
 </LinearLayout>
