@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Toast
 import jmi.gnu.week04_1.databinding.ActivityAnimalBinding
 
+// 4주차 실습 4-11: 동물 사진 보여주기
 class AnimalActivity : AppCompatActivity() {
     // ViewBinding Setting
     private var _binding: ActivityAnimalBinding? = null

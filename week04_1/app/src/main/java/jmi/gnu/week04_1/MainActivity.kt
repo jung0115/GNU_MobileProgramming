@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
+// 4주차 실습 4-1: 초간단 계산기
 class MainActivity : AppCompatActivity() {
     lateinit var edit1: EditText
     lateinit var edit2: EditText
