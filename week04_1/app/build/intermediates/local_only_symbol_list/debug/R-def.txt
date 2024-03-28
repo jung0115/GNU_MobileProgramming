@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img_cat
+drawable img_dog
+drawable img_rabbit
+drawable shape_button
+drawable shape_button2
+id btn_add
+id btn_check
+id btn_div
+id btn_mul
+id btn_sub
+id checkbox
+id edit_num1
+id edit_num2
+id img_animal
+id radio_cat
+id radio_dog
+id radio_group
+id radio_rabbit
+id text_animal
+id text_result
+layout activity_animal
+layout activity_main
+layout activity_practice1
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Week04_1
+style Theme.Week04_1
+xml backup_rules
+xml data_extraction_rules
