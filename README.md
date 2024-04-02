@@ -7,6 +7,20 @@
 
 ---
 
+<details markdown="1">
+  <summary><h3>3주차 실습 | 2024.03.20.수</h3></summary>
+  <div>
+    <div>
+      <input type="checkbox" id="week03_1" name="week03_1" checked />
+      <label for="week03_1">HelloAndroid: 버튼, 체크박스, 라디오버튼 등 위젯 생성</label>
+    </div>
+    <div>
+      <input type="checkbox" id="week03_2" name="week03_2" checked />
+      <label for="week03_2">BaseApp: 버튼 click event, Toast</label>
+    </div>
+  </div>
+</details>
+
 - **3주차 실습 | 2024.03.20.수**
   - [x] HelloAndroid: 버튼, 체크박스, 라디오버튼 등 위젯 생성
   - [x] BaseApp: 버튼 click event, Toast
