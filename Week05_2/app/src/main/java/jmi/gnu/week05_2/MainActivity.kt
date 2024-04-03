@@ -7,11 +7,13 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Toast
 
+// Kotlin 코드로 화면 만들기
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
 
+        // LinearLayout 생성
         val params = LinearLayout.LayoutParams(
             LinearLayout.LayoutParams.MATCH_PARENT,
             LinearLayout.LayoutParams.MATCH_PARENT
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         baseLayout.setBackgroundColor(Color.rgb(0, 255, 0))
         setContentView(baseLayout, params)
 
+        // 버튼 클릭 이벤트
         var btn = Button(this)
         btn.text = "버튼입니다"
         btn.setBackgroundColor(Color.MAGENTA)
