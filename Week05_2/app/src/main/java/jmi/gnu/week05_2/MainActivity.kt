@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Toast
 
-// Kotlin 코드로 화면 만들기
+// 5-1. XML 없이 화면 코딩하기
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
