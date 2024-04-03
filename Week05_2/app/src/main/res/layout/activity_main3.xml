@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 숫자1: 2443 / 숫자2: 학번 마지막 4자리 (0863) / 빼기-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/edit_num1"
+            android:layout_span="5"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:hint="숫자1 입력"
+            android:layout_marginBottom="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/edit_num2"
+            android:layout_span="5"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:hint="숫자2 입력"
+            android:layout_marginBottom="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <android.widget.Button
+            android:id="@+id/btn_num0"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num1"
+            android:layout_weight="1"
+            android:text="1"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num2"
+            android:layout_weight="1"
+            android:text="2"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num3"
+            android:layout_weight="1"
+            android:text="3"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num4"
+            android:layout_weight="1"
+            android:text="4"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow>
+        <android.widget.Button
+            android:id="@+id/btn_num5"
+            android:layout_weight="1"
+            android:text="5"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num6"
+            android:layout_weight="1"
+            android:text="6"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num7"
+            android:layout_weight="1"
+            android:text="7"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num8"
+            android:layout_weight="1"
+            android:text="8"
+            android:textColor="@color/black"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_num9"
+            android:layout_weight="1"
+            android:text="9"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow>
+        <android.widget.Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text="더하기"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <android.widget.Button
+            android:id="@+id/btn_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text="빼기"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"/>
+    </TableRow>
+
+    <TableRow>
+        <android.widget.Button
+            android:id="@+id/btn_mul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text="곱하기"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"/>
+    </TableRow>
+
+    <TableRow>
+        <android.widget.Button
+            android:id="@+id/btn_div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:text="나누기"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="5"
+            android:textSize="20dp"
+            android:text="계산 결과: "
+            android:textColor="#fc3728"
+            android:layout_marginTop="15dp"/>
+    </TableRow>
+
+</TableLayout>
