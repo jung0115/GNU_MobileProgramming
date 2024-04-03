@@ -52,3 +52,32 @@
     </ul>
   </div>
 </details>
+
+---
+<details markdown="1">
+  <summary><b>5주차 실습 | 2024.04.03.수</b></summary>
+  <div>
+    <ul>
+      <li>week05_1 > MainActivity: LinearLayout orientaion, gravity</li>
+      <li>week05_1 > MainActivity2: Layout weight</li>
+      <li>week05_1 > Practice5_2Activity: 중첩 LinearLayout</li>
+      <li>week05_2 > MainActivity2: RelativeLayout parent 기준</li>
+      <li>week05_2 > MainActivity3: RelativeLayout 위젯 기준</li>
+    </ul>
+  </div>
+</details>
+<details markdown="1">
+  <summary><b><a href="https://github.com/jung0115/GNU_MobileProgramming/issues/8" target="_blank">5주차 과제</a> | 2024.04.03.수 ~ 2024.04.09.화</b></summary>
+  <div>
+    <ul>
+      <li>
+        <div>week05_2 > MainActivity: XML 없이 화면 코딩하기</div>
+        <img width="200px" alt="실습5-1" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/d0bec42f-9ea4-47bf-9b94-45a7a76c2473" />  
+      </li>
+      <li>
+        <div>week05_2 > MainActivity4: TableLayout을 활용한 계산기 만들기</div>
+        <img height="400px" alt="실습4-2(1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/2d2948cf-bbbe-445e-98d7-e79385a792e8"> <img height="400px" alt="실습4-2(2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/14d86198-97e7-4a32-9fe8-01560f38e45d"> <img height="400px" alt="실습4-2(3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/e6efb698-c051-4453-8e87-00cf4fe0503f">
+      </li>
+    </ul>
+  </div>
+</details>
