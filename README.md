@@ -76,7 +76,7 @@
       </li>
       <li>
         <div>week05_2 > MainActivity4: TableLayout을 활용한 계산기 만들기</div>
-        <img height="400px" alt="실습4-2(1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/2d2948cf-bbbe-445e-98d7-e79385a792e8"> <img height="400px" alt="실습4-2(2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/14d86198-97e7-4a32-9fe8-01560f38e45d"> <img height="400px" alt="실습4-2(3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/e6efb698-c051-4453-8e87-00cf4fe0503f">
+          <img height="400px" alt="실습4-2(1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/e6efb698-c051-4453-8e87-00cf4fe0503f"> <img height="400px" alt="실습4-2(2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/14d86198-97e7-4a32-9fe8-01560f38e45d"> <img height="400px" alt="실습4-2(3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/2d2948cf-bbbe-445e-98d7-e79385a792e8">
       </li>
     </ul>
   </div>
