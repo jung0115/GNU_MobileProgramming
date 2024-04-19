@@ -76,7 +76,30 @@
       </li>
       <li>
         <div>week05_2 > MainActivity4: TableLayout을 활용한 계산기 만들기</div>
-          <img height="400px" alt="실습4-2(1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/e6efb698-c051-4453-8e87-00cf4fe0503f"> <img height="400px" alt="실습4-2(2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/14d86198-97e7-4a32-9fe8-01560f38e45d"> <img height="400px" alt="실습4-2(3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/2d2948cf-bbbe-445e-98d7-e79385a792e8">
+          <img height="400px" alt="실습5-2(1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/e6efb698-c051-4453-8e87-00cf4fe0503f"> <img height="400px" alt="실습5-2(2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/14d86198-97e7-4a32-9fe8-01560f38e45d"> <img height="400px" alt="실습4-2(3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/2d2948cf-bbbe-445e-98d7-e79385a792e8">
+      </li>
+    </ul>
+  </div>
+</details>
+
+---
+<details markdown="1">
+  <summary><b>6주차 실습 | 2024.04.17.수</b></summary>
+  <div>
+    <ul>
+      <li>week06_1 > MainActivity2: ScrollView</li>
+      <li>week06_1 > MainActivity3: SlidingDrawer</li>
+      <li>week06_1 > TabTestActivity: TabHost</li>
+    </ul>
+  </div>
+</details>
+<details markdown="1">
+  <summary><b><a href="https://github.com/jung0115/GNU_MobileProgramming/issues/11" target="_blank">6주차 과제</a> | 2024.04.17.수 ~ 2024.04.23.화</b></summary>
+  <div>
+    <ul>
+      <li>
+        <div>week06_1 > MainActivity: 날짜/시간 예약 앱</div>
+        <img height="400px" alt="실습6-1(1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/86097775-9ae2-4f44-aac5-025bdd230124"> <img height="400px" alt="실습6-1(2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/bac31b36-9f13-4600-a350-7d2b6c9a854c"> <img height="400px" alt="실습6-1(3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/5468edf5-82ea-4aad-b80c-fdb5701d29ff"> <img height="400px" alt="실습6-1(4)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/93cff4e6-cb9e-46e5-bf9a-4f50d696de4a"> <img height="400px" alt="실습6-1(5)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/5fedbcfd-da55-4dfe-b991-bc9692373627"> 
       </li>
     </ul>
   </div>
