@@ -30,7 +30,7 @@ class ToastActivity : AppCompatActivity() {
             var xOffset = (Math.random() * display.width).toInt()
             var yOffset = (Math.random() * display.height).toInt()
 
-            tMsg.setGravity(Gravity.TOP or Gravity.LEFT, xOffset, yOffset)
+            tMsg.setGravity(Gravity.TOP or Gravity.START, xOffset, yOffset)
             tMsg.show()
         }
     }
