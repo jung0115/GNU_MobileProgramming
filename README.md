@@ -104,3 +104,28 @@
     </ul>
   </div>
 </details>
+
+---
+<details markdown="1">
+  <summary><b>7주차 실습 | 2024.05.08.수</b></summary>
+  <div>
+    <ul>
+      <li>week07_01 > MainActivity: (7-1) Menu(바탕색 변경 앱 만들기)</li>
+      <li>week07_01 > ToastActivity: Toast setGravity</li>
+      <li>week07_01 > FileActivity: 파일 쓰고 읽기</li>
+      <li>week07_01 > SimpleDiaryActivity: (8-1) 간단 일기장 앱 만들기</li>
+    </ul>
+  </div>
+</details>
+<details markdown="1">
+  <summary><b><a href="https://github.com/jung0115/GNU_MobileProgramming/issues/17" target="_blank">7주차 과제</a> | 2024.05.08.수 ~ 2024.05.14.화</b></summary>
+  <div>
+    <ul>
+      <li>
+        <div>week07_01 > UserActivity: 7-3 / 사용자 정보 입력 앱 만들기</div>
+        <img height="400px" alt="실습 7-3 (1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/ee5f3d37-6e71-431c-849d-acf9cd66295f"> <img height="400px" alt="실습 7-3 (2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/98ca5a61-5b9c-440e-a03d-b318e1d97734"> <img height="400px" alt="실습 7-3 (3)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/2d76963f-0336-4ced-84f0-5bcd5491742b"> <img height="400px" alt="실습 7-3 (4)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/a1422d3f-f4e4-4b97-b426-d283fad0e956"> <img height="400px" alt="실습 7-3 (5)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/b405ea33-e9af-457f-9764-daf3c556b01c">
+      </li>
+    </ul>
+  </div>
+</details>
+
