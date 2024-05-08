@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         // ViewBinding
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        title = "배경색 바꾸기"
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
