@@ -1,12 +1,13 @@
 package jmi.gnu.week07_01
 
-import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
-import android.view.WindowManager
+import android.view.LayoutInflater
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import jmi.gnu.week07_01.databinding.ActivityToastBinding
+import jmi.gnu.week07_01.databinding.CustomToastBinding
+
 
 class ToastActivity : AppCompatActivity() {
     // ViewBinding Setting
@@ -14,7 +15,6 @@ class ToastActivity : AppCompatActivity() {
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_toast)
 
         // ViewBinding
         _binding = ActivityToastBinding.inflate(layoutInflater)
@@ -23,7 +23,8 @@ class ToastActivity : AppCompatActivity() {
         title = "토스트 연습"
 
         binding.buttonToast.setOnClickListener {
-            var tMsg = Toast.makeText(applicationContext, "토스트 연습", Toast.LENGTH_SHORT)
+            // API 29 이하에만 적용 가능한 방법
+            /*var tMsg = Toast.makeText(applicationContext, "토스트 연습", Toast.LENGTH_SHORT)
 
             var display = (getSystemService(Context.WINDOW_SERVICE) as
                     WindowManager).defaultDisplay
@@ -31,7 +32,18 @@ class ToastActivity : AppCompatActivity() {
             var yOffset = (Math.random() * display.height).toInt()
 
             tMsg.setGravity(Gravity.TOP or Gravity.START, xOffset, yOffset)
-            tMsg.show()
+            tMsg.show()*/
+
+            val inflater = LayoutInflater.from(this)
+            val toastBinding = CustomToastBinding.inflate(inflater, null, false)
+
+            toastBinding.toastText.text = "Custom Toast - setGravity"
+
+            Toast(this).apply {
+                setGravity(Gravity.BOTTOM or Gravity.CENTER, 200, 500)
+                duration = Toast.LENGTH_LONG
+                view = toastBinding.root
+            }.show()
         }
     }
 
