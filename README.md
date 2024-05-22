@@ -129,3 +129,28 @@
   </div>
 </details>
 
+---
+<details markdown="1">
+  <summary><b>8주차 실습 | 2024.05.22.수</b></summary>
+  <div>
+    <ul>
+      <li>week08_01 > MainActivity, SecondActivity: 10-1 / 새로운 액티비티 추가하기(Intent)</li>
+      <li>week08_01 > CallActivity: 10-3 / 로그캣을 이용하여 액티비티 생명주기 확인하기(Intent)</li>
+    </ul>
+  </div>
+</details>
+<details markdown="1">
+  <summary><b><a href="https://github.com/jung0115/GNU_MobileProgramming/issues/22" target="_blank">8주차 과제</a> | 2024.05.22.수 ~ 2024.05.28.화</b></summary>
+  <div>
+    <ul>
+      <li>
+        <div>week08_01 > CatVoteActivity, CatResultActivity: 10-2 / 명화(고양이) 선호도 투표 앱 만들기</div>
+        <img height="400px" alt="실습 10-2 (1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/7539d60c-8b23-4d3b-b519-3bd1c48a02b4"> <img height="400px" alt="실습 10-2 (2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/a322c231-0a94-4d9b-9028-8a27acf80810"> <img height="400px" alt="실습 10-2 (31)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/64c05065-2a78-4a93-8cd3-d0cae51d594d"> 
+      </li>
+      <li>
+        <div>week08_01 > MovieActivity, CatResultActivity: 11-2 / 영화 포스터 보기 2</div>
+        <img height="400px" alt="실습 11-2 (1)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/b8a31e01-d52b-4fe9-8a38-46a6b77c4aa4"> <img height="400px" alt="실습 11-2 (2)" src="https://github.com/jung0115/GNU_MobileProgramming/assets/76805879/e73a10ed-935e-409e-ba64-f5572061b74b">
+      </li>
+    </ul>
+  </div>
+</details>
