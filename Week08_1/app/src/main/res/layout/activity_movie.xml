@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MovieActivity">
+    tools:context=".MovieActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <Gallery
         android:id="@+id/gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:spacing="5dp"/>
+        android:spacing="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
 
     <ImageView
         android:id="@+id/image_poster"
