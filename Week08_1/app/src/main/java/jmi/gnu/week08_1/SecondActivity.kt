@@ -1,25 +1,23 @@
 package jmi.gnu.week08_1
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import jmi.gnu.week08_1.databinding.ActivityMainBinding
+import jmi.gnu.week08_1.databinding.ActivitySecondBinding
 
-class MainActivity : AppCompatActivity() {
+class SecondActivity : AppCompatActivity() {
     // ViewBinding Setting
-    private var _binding: ActivityMainBinding? = null
+    private var _binding: ActivitySecondBinding? = null
     private val binding get() = _binding!!
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // ViewBinding
-        _binding = ActivityMainBinding.inflate(layoutInflater)
+        _binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnNew.setOnClickListener {
-            var intent = Intent(applicationContext, SecondActivity::class.java)
-            startActivity(intent)
+        binding.btnReturn.setOnClickListener {
+            finish()
         }
     }
 
